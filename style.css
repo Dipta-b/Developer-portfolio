@@ -14,6 +14,7 @@ h1 {
 
 section {
     display: flex;
+    padding: 100px;
 }
 
 .half-width {
@@ -43,4 +44,19 @@ section {
     background-size: 90px;
     background-position-y: top;
 
+}
+
+.second-img {
+    height: 300px;
+    width: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.bg-bottom {
+    background-image: url(ring.jpeg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 150px;
 }
